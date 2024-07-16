@@ -6,7 +6,7 @@ This is a simple quiz application built with HTML, CSS, and JavaScript. The appl
 
 You can access the live demo of the quiz application
 [netlify](https://quiz-app-alnomancs.netlify.app/) or
-[github] (https://alnomancs.github.io/QuizApp/).
+[github](https://alnomancs.github.io/QuizApp/).
 
 ## Features
 
