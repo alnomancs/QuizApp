@@ -17,7 +17,51 @@ const questions = [
       { text: "Saturn", correct: false },
     ],
   },
-  // Add more questions here
+  {
+    question: "What is the largest ocean on Earth?",
+    answers: [
+      { text: "Atlantic Ocean", correct: false },
+      { text: "Indian Ocean", correct: false },
+      { text: "Pacific Ocean", correct: true },
+      { text: "Arctic Ocean", correct: false },
+    ],
+  },
+  {
+    question: 'Who wrote "To Kill a Mockingbird"?',
+    answers: [
+      { text: "Harper Lee", correct: true },
+      { text: "Mark Twain", correct: false },
+      { text: "Ernest Hemingway", correct: false },
+      { text: "F. Scott Fitzgerald", correct: false },
+    ],
+  },
+  {
+    question: "What is the capital of Japan?",
+    answers: [
+      { text: "Beijing", correct: false },
+      { text: "Seoul", correct: false },
+      { text: "Bangkok", correct: false },
+      { text: "Tokyo", correct: true },
+    ],
+  },
+  {
+    question: "What is the hardest natural substance on Earth?",
+    answers: [
+      { text: "Gold", correct: false },
+      { text: "Iron", correct: false },
+      { text: "Diamond", correct: true },
+      { text: "Platinum", correct: false },
+    ],
+  },
+  {
+    question: "Who painted the Mona Lisa?",
+    answers: [
+      { text: "Vincent van Gogh", correct: false },
+      { text: "Pablo Picasso", correct: false },
+      { text: "Leonardo da Vinci", correct: true },
+      { text: "Claude Monet", correct: false },
+    ],
+  },
 ];
 
 const questionContainerElement = document.getElementById("question-container");
